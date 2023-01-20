@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+h1{
+   text-align: center;
+   color: #f99a7e; 
+   font-size:76px;
+}  
+#imagemCentral{
+    display: block;
+    width: 100%;
+    /*border-radius: 20px; como fazer borda*/
+    border-bottom: 20px;
+    /*colcar cor na borda da foto*/
+    
+}
+div{
+    display: inline-block;
+    width: calc( 30% - 25px );
+    vertical-align: top;
+    margin: 6px;
+    padding:6px;
+    background-color:#f99a7e;
+    /* deixar tudo do mesmo tamanho*/
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-bottom: 20px;
+}
+h2{
+   color:black;
+   font-size: 40px;
+}
+div p{
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+footer{
+    display: block;
+    background-color:#f99a7e;
+    ;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+
